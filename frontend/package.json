@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode prooduction"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "@material-ui/icons": "^4.11.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-router": "^6.8.0",
     "react-router-dom": "^6.8.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
