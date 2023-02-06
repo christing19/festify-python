@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import health
+from . import views
 
 urlpatterns = [
-    path('', health)
+    path('', views.health),
+    path('room', views.RoomView.as_view())
 ]
